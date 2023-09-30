@@ -155,6 +155,7 @@ function startagain() {
    pic.style.backgroundImage = "";
    pwin.innerHTML = "";
    document.getElementById("btn1").disabled = false;
+   document.getElementById("btn2").disabled = true;
    rollnow1.style.backgroundColor = "green";
    rollnow2.style.backgroundColor = "#808080";
 }
